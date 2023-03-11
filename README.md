@@ -2,16 +2,41 @@ API is the acronym for application programming interface, a software intermediar
 
 web programming languages have features to ease the mundane processes of creating an API, as well as frameworks that make that job even easier.
 
-In this repository we will use Laravel 8 , a PHP framework.
+In this repository we will use Laravel 8, a PHP framework.
 
-These will be the steps:
+We are going to create a application that manages products in stock:
 
-Creation of Model;
+Create product;
+Update product;
+Delete product;
 
-Creation of Controller;
 
-creation of routes;
+For this we gonna following these steps:
+
+Creation Product Model;
+
+Creation Product Controller;
+
+creation of Routes;
 
 Tests;
 
 Let's get to work at! :star_struck:
+
+
+Laravel cames with a command-line interface called Artisan, witch makes easy to creates the project structure. Let's use it to create our Model, Migration and Controller.
+
+Criando Model, Migration and Controller by Artisan
+
+```php
+php artisan make:model Product -mc --api
+```
+
+The above command has create three file for us:
+
+
+Product.php
+
+
+
+
