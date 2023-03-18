@@ -289,5 +289,5 @@ So I think the best part become after that, when you really start coding.
 
 We are going to let it more mature with validation, token acess, indepentent resource and request files, and more. And we going to have one repository for each tutorial, to get a historic about each step.
 
-That is it. Thanks :smiling:
+That is it. Thanks :smile:
 
