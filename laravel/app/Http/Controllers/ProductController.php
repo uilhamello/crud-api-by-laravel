@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Product;
+use GuzzleHttp\Psr7\Response;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -14,7 +15,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return view('welcome');
+        return Product::all();
     }
 
     /**
@@ -25,7 +26,7 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return Product::create($request->post());
     }
 
     /**
@@ -36,7 +37,7 @@ class ProductController extends Controller
      */
     public function show(Product $product)
     {
-        //
+        return $product;
     }
 
     /**
@@ -48,7 +49,7 @@ class ProductController extends Controller
      */
     public function update(Request $request, Product $product)
     {
-        //
+        return $product->update($request->all());
     }
 
     /**
@@ -59,6 +60,6 @@ class ProductController extends Controller
      */
     public function destroy(Product $product)
     {
-        //
+        $product->delete();
     }
 }
