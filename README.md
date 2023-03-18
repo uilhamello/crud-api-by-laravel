@@ -281,7 +281,12 @@ That is a beautifull evolution about Laravel and PHP where we pass the Product I
     }
 ```
 
-That is it :smiling:
+
+<h2>Testing with postman</h2>
+On the root of this repository you are going to find the Postman Json Collection to import for your postman. By Postman you can test every route and action easly.
+
+
+<h3>That is it :smiling:</h3>
 
 We just finish a basic crud API aplication. Easy? Maybe! I do think that until get started coding is a little painful. Too much configurations, and steps that is no about coding. But after you start to code that get realy easy and intuitive.
 
@@ -289,5 +294,8 @@ So I think the best part become after that, when you really start coding.
 
 We are going to let it more mature with validation, token acess, indepentent resource and request files, and more. And we going to have one repository for each tutorial, to get a historic about each step.
 
-That is it. Thanks :smile:
+
+
+
+Thanks :smile:
 
